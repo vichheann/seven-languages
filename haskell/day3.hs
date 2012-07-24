@@ -94,7 +94,9 @@ _sort_path_by_cost list = sortBy f list
                       where
                         f (_, a) (_, b) = if a < b then LT else GT
 
-{---------------------------------------------------------------------}
+{--
+Find & adapt another solver http://blog.wakatta.jp/blog/2011/11/19/seven-languages-in-seven-weeks-haskell-day-3/
+--}
 
 solveMaze :: Maze -> Node -> Node -> [Node]
 solveMaze maze start end =
