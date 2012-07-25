@@ -20,6 +20,10 @@ More [here](http://www.haskell.org/ghc/docs/7.2.1/html/users_guide/using-ghc.htm
 
 You can run tests with the little shell script `run_tests.sh`
 
+TODO:
+
+  * [] day3: write a monad in another language ..... 
+
 ## License
 
 Copyright (C) 2012 [@2h2n](https://twitter.com/2h2n/)
